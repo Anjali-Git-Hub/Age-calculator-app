@@ -47,7 +47,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .form input{
-    width: 118px;
+   max-width: 118px;
+   width: 123%;
     height: 60px;
     border-radius:5px;
     border:1px solid var(--body-bg-lightGrey);
@@ -113,4 +114,15 @@ button[type="submit"]:hover{
 }
 .edits div h1 span{
     color:var(--primary-color-purple);
+}
+
+/*  for small screens  */
+@media(max-width:500px){
+    html{
+        font-size:56.25%;
+    }
+    .outer{
+        border-radius:10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    }
 }
