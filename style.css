@@ -119,7 +119,7 @@ button[type="submit"]:hover{
 /*  for small screens  */
 @media(max-width:500px){
     html{
-        font-size:56.25%;
+        font-size:50%;
     }
     .outer{
         border-radius:10px;
